@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Calculator</string>
+    <string name="imb_cd">imb cd</string>
+    <string name="btn_operator_add">+</string>
+    <string name="btn_evaluate">=</string>
+    <string name="btn_decimal">.</string>
+    <string name="btn_number_zero">0</string>
+    <string name="btn_operator_subtract">-</string>
+    <string name="btn_number_three">3</string>
+    <string name="btn_number_two">2</string>
+    <string name="btn_number_one">1</string>
+    <string name="btn_operator_multiply">*</string>
+    <string name="btn_number_six">6</string>
+    <string name="btn_number_five">5</string>
+    <string name="btn_number_four">4</string>
+    <string name="btn_operator_divide">/</string>
+    <string name="btn_number_nine">9</string>
+    <string name="btn_number_eight">8</string>
+    <string name="btn_number_seven">7</string>
 </resources>
