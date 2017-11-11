@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground"
+    android:elevation="4dp"
+    android:paddingBottom="24dp"
+    android:paddingTop="24dp"
+    tools:context="ir.pallas.calculator.DisplayFragment">
+
+    <ImageButton
+        android:id="@+id/imb_delete"
+        style="@style/ImageButtonDisplay"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/imb_cd"
+        android:src="@drawable/ic_clear_black_36dp" />
+
+    <HorizontalScrollView
+        android:id="@+id/scv_display_expression"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_toEndOf="@id/imb_delete">
+
+        <TextView
+            android:id="@+id/lbl_display_result"
+            style="@style/TextViewDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            tools:text="5554151" />
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/scv_display_result"
+        style="@style/ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/scv_display_expression">
+
+        <TextView
+            android:id="@+id/lbl_display_expression"
+            style="@style/TextViewDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            tools:text="962+6598" />
+
+    </HorizontalScrollView>
+
+</RelativeLayout>
